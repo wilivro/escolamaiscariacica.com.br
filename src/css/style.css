@@ -120,16 +120,20 @@ p {
 
 #sub-menu {
     position: absolute;
-    left: -400px;
-    width: 400px;    
+    width: 0;
     height: 100%;
     background: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+}
+
+#sub-menu>div {
     padding: 10px;
 }
 
 #sub-menu div.row>div {
-    width: 70%;
+    width: 80%;
 }
+
 #sub-menu div.row>div a {
     padding: 15px 0;
     color: #fff;
@@ -138,7 +142,7 @@ p {
 }
 
 #sub-menu img {
-    height: 70px;
+    height: 50px;
     padding: 10px;
     cursor: pointer;
 }
