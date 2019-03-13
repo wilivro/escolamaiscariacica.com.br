@@ -5,22 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Escola+ Cariacica</title>
     <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
+    <div id="sub-menu">
+        <div class="row justify-content-between">
+            <div class="row fd-column">
+                <a href="">O PROJETO</a>
+                <a href="">CONTEÚDO PROGRAMÁTICO</a>
+                <a href="">ACESSE</a>
+            </div>
+            <img src="src/img/close.svg">
+        </div>
+    </div>
     <section id="menu" class="container-fluid">
         <header class="container">
             <div class="row justify-content-between align-items-center">
+                <img class="d-block d-md-none d-lg-none d-xl-none" src="src/img/menu.svg">
                 <a href=""><img src="src/img/logo.svg"></a>
-                <nav>
+                <nav class="d-none d-md-block">
                     <a href="">O PROJETO</a>
                     <a href="">CONTEÚDO PROGRAMÁTICO</a>
                     <a href="">ACESSE</a>
-                </nav>
+                </nav>                
             </div>
         </header>
     </section>
@@ -84,7 +95,7 @@
                 <div class="row fd-column align-items-center justify-content-center">
                     <h1>CONTEÚDO PROGRAMÁTICO</h1>
                     <div class="row">
-                        <div class="row fd-column col-6 align-items-center">
+                        <div class="row fd-column col-12 col-md-6 align-items-center mb-4">
                             <h3>PORTUGUÊS</h3>
                             <p>
                                 trabalho de diversas competências, como leitura de texto em sala de aula;
@@ -92,7 +103,7 @@
                                 determinados pelos programas do INEP.
                             </p>
                         </div>
-                        <div class="row fd-column col-6 align-items-center">
+                        <div class="row fd-column col-12 col-md-6 align-items-center">
                             <h3>MATEMÁTICA</h3>
                             <p>
                                 explanação dos conteúdos ligados aos descritores determinados pelos
@@ -150,9 +161,7 @@
         </div>
     </footer>
 
-
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="src/js/script.js"></script>
 </body>
 
