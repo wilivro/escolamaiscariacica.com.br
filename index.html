@@ -135,26 +135,27 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center fd-column">
                     <h1>ACESSE</h1>
-                    <form method="POST" name="wf-form-Login" data-name="Login" id="wf-form-Login" class="col-12 col-lg-6" action="http://wiquadro.com.br/site/login">
-                        <div class="form-group">
-                            <label for="Usuario_Email">Email ou CPF</label>
-                            <input class="form-control" tabindex="1" data-name="LoginForm_username" name="LoginForm[username]" id="LoginForm_username"
-                                type="text">
-                        </div>
-                        <div class="form-group">
-                            <a class="esqueci-senha" tabindex="5" href="/site/esqueciminhasenha">
-                                Esqueci minha senha</a>
-                            <label for="Usuario_Senha">Senha</label>
-                            <input class="form-control" tabindex="2" data-name="LoginForm_password" name="LoginForm[password]" id="LoginForm_password"
-                                type="password" maxlength="32">
-                        </div>
-                        <div class="fd-column row">
-                            <div class="row justify-content-between">
-                                <button type="submit" value="ENTRAR" class="btn btn-block" tabindex="3">LOGIN</button>
-                                <a href="/site/registro" class="cadastrar" tabindex="4">CADASTRAR</a>
-                            </div>
-                        </div>
-                    </form>
+                            <form class="form w-clearfix" data-name="Login" action="https://wiquadro.com.br/site/login"
+                                id="wf-form-Login" method="POST" name="wf-form-Login">
+                                <label class="field-label" for="LoginForm_username">
+                                    e-mail
+                                </label>
+                                <input class="text-field w-input" data-name="LoginForm_username" id="LoginForm_username"
+                                    maxlength="50" name="LoginForm[username]" required="required" type="text" />
+                                <label class="field-label-2" for="LoginForm_password">
+                                    SENHA
+                                </label>
+                                <input class="text-field-2 w-input" data-name="LoginForm_password" maxlength="32"
+                                    name="LoginForm[password]" id="LoginForm_password" type="password"
+                                    required="required" type="password" />
+                                <input class="submit-button w-button" data-wait="Please wait..." type="submit"
+                                    value="LOGIN" />
+                                <a class="submit-button-2 w-inline-block" href="https://wiquadro.com.br/site/registro">
+                                    <div class="text-block-3">
+                                        CADASTRAR
+                                    </div>
+                                </a>
+                            </form>
                 </div>
             </div>
         </div>
