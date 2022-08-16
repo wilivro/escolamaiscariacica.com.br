@@ -251,7 +251,7 @@ header>div nav a:hover {
     background: #f1b019;
     border-radius: 0;
     text-align: center;
-    width: calc(50% - 5px);
+    width: 100%;
 }
 
 #acesse div a {
